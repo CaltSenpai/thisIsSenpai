@@ -70,6 +70,7 @@ h2,h4{
 #book{
     width : 500px;
     padding: 30px;
+    border-radius: 35px;
 }
 
 .links{
@@ -94,6 +95,7 @@ h2,h4{
 #picz{
     height: 400px;
     padding: 20px;
+    border-radius: 35px;
 }
 
 .show{
@@ -154,4 +156,49 @@ button{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media(max-width:1000px){
+    .container{
+        margin:auto;
+        width:1000px;
+    }
+
+    .bio{
+        padding : 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        margin:auto;
+    
+    }
+    
+    #me{
+        width : 250px;
+        height: 237.5px;
+        border-radius : 50%;
+    }
+
+    .ele{
+        padding-left:0%;
+        display: flex;
+    }
+
+    #ifo{
+        width:350px;
+    }
+
+    .dyam{
+        padding-left:0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #picz{
+        height: 400px;
+        padding: 20px;
+        border-radius: 35px;
+    }
+
 }
