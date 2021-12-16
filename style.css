@@ -162,7 +162,7 @@ button{
     justify-content: space-between;
 }
 
-@media(max-width:1000px){
+@media(max-width:1080px){
     .container{
         margin:auto;
         max-width: 100%;
