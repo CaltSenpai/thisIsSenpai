@@ -162,7 +162,7 @@ button{
     justify-content: space-between;
 }
 
-@media(max-width:1080px){
+/* @media(max-width:1080px){
     .container{
         margin:auto;
         max-width: 100%;
@@ -233,7 +233,7 @@ button{
         flex-wrap: wrap;
         align-items: center;
     }
-}
+} */
 
 @media( max-width:480px ){
     .ele{
