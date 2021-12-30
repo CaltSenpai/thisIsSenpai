@@ -234,3 +234,49 @@ button{
         align-items: center;
     }
 }
+
+@media( max-width:480px ){
+    .ele{
+        padding:0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #book{
+        width : 450px;
+        border-radius: 35px;
+    }
+
+    #ifo{
+       width: 450px;
+    }
+
+    .dyam{
+        padding:0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #picz{
+        height: 300px;
+        padding: 15px;
+        border-radius: 35px;
+    }
+
+    .pic{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #soc{
+        scale:0.9;
+    }
+    #logo{
+        width:50px;
+    }
+}
